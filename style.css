@@ -64,3 +64,20 @@ img {
     width: 100%;
 }
 
+footer{
+    color: white;
+    text-align: center;font-size: 0.8em;
+    padding: 5px;
+
+}
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
