@@ -3,12 +3,18 @@ body {
 }
 
 header {  
-background-color: orange;
-min-height: 150px;
-text-align: center;
-padding-top: 40px;
+    background-image: url(img/bandeira.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
     
+
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+        
 }
+
 
 header > h1 {
 color: white;
@@ -17,7 +23,7 @@ font-size: 3em;
 margin-bottom: 20px;
 }
 
-header > {
+header > p {
     font-size: 1.2em;
     color: white;
     max-width: 600px;
@@ -37,7 +43,7 @@ main {
     margin: auto;
 }
 div.video {
-    background-color: blue;
+    background-color: black;
     margin-bottom:20px;
     padding: 20px;
     padding-bottom: 50%;
